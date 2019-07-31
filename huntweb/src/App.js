@@ -1,4 +1,6 @@
 import React from 'react';
+//import routes
+import Routes from './routes';
 
 
 //import components
@@ -11,7 +13,7 @@ import './styles.css';
 const App = () => (
   <div className="App">
     <Header/>
-    <Main/>
+    <Routes/>
   </div>
 )
 export default App;
